@@ -1,7 +1,7 @@
 $anchoColumna: 100%;
 $colorbackground: rgb(255, 153, 0);
 $colorbackgroundAction: rgb(198, 236, 29);
-$brilloOscuro:0%;
+$brilloOscuro: 0%;
 
 .foto {
     border: solid 1px;
@@ -46,13 +46,15 @@ h1 {
 #registro {
     text-align: end;
     padding-top: 10px;
-    img{
+
+    img {
         filter: brightness($brilloOscuro);
-        
+
     }
+
     a:hover {
-        background-color:$colorbackgroundAction !important;
-     }
+        background-color: $colorbackgroundAction !important;
+    }
 
 }
 
@@ -61,9 +63,14 @@ nav {
     background-color: $colorbackground;
     font-size: 21px;
     margin-bottom: 50px;
-    
-    ul{
-        text-align: end;
+
+    ul {
+        text-align: center;
+    }
+
+    a:hover {
+        background-color: $colorbackgroundAction !important;
+
     }
 }
 
@@ -84,11 +91,12 @@ p {
 }
 
 footer {
-    background-color:$colorbackground;
+    background-color: $colorbackground;
     padding: 10px;
     color: black;
     font-size: 16px;
-    img{
+
+    img {
         filter: brightness($brilloOscuro);
     }
 }
@@ -97,41 +105,43 @@ footer {
     border-width: 3.5px;
     border-radius: 0%;
     border-color: rgb(209, 197, 197);
+
     a:hover {
-        background-color:$colorbackgroundAction !important;
-     }
-   
+        background-color: $colorbackgroundAction !important;
+    }
+
 }
 
 
 .btn {
-    background-color:$colorbackground;
+    background-color: $colorbackground;
     border: none;
- 
+
 }
 
 form {
     margin: 41px;
-    button:hover{
-        background-color:$colorbackgroundAction !important;
-        }
-   
+
+    button:hover {
+        background-color: $colorbackgroundAction !important;
     }
-  
-    
+
+}
+
+
 
 
 img {
-   
+
     transition: all 0.5s;
-   
+
 }
 
-.card:hover{
+.card:hover {
     transform: scale(1.01);
 }
 
 #imgregistro {
     text-align: center;
-     filter: brightness($brilloOscuro);
+    filter: brightness($brilloOscuro);
 }

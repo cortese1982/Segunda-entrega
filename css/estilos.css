@@ -54,7 +54,10 @@ nav {
   margin-bottom: 50px;
 }
 nav ul {
-  text-align: end;
+  text-align: center;
+}
+nav a:hover {
+  background-color: rgb(198, 236, 29) !important;
 }
 
 body {
