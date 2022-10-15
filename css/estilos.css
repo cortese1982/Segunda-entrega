@@ -34,7 +34,7 @@ h1 {
   margin-top: 45px;
   margin-bottom: 45px;
   font-size: 55px;
-  color: rgb(19, 219, 52);
+  color: rgb(255, 153, 0);
 }
 
 #registro {
@@ -44,9 +44,12 @@ h1 {
 #registro img {
   filter: brightness(0%);
 }
+#registro a:hover {
+  background-color: rgb(198, 236, 29) !important;
+}
 
 nav {
-  background-color: rgb(19, 219, 52);
+  background-color: rgb(255, 153, 0);
   font-size: 21px;
   margin-bottom: 50px;
 }
@@ -62,7 +65,7 @@ p {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
-  font-size: 21px;
+  font-size: 18px;
 }
 
 #primerletra {
@@ -70,7 +73,7 @@ p {
 }
 
 footer {
-  background-color: rgb(19, 219, 52);
+  background-color: rgb(255, 153, 0);
   padding: 10px;
   color: black;
   font-size: 16px;
@@ -80,18 +83,24 @@ footer img {
 }
 
 .card {
+  border-width: 3.5px;
   border-radius: 0%;
-  border-width: 1.5px;
-  border-color: rgb(19, 219, 52);
+  border-color: rgb(209, 197, 197);
+}
+.card a:hover {
+  background-color: rgb(198, 236, 29) !important;
 }
 
 .btn {
-  background-color: rgb(19, 219, 52);
+  background-color: rgb(255, 153, 0);
   border: none;
 }
 
 form {
   margin: 41px;
+}
+form button:hover {
+  background-color: rgb(198, 236, 29) !important;
 }
 
 img {
@@ -99,11 +108,12 @@ img {
 }
 
 .card:hover {
-  transform: scale(1.05);
+  transform: scale(1.01);
 }
 
 #imgregistro {
   text-align: center;
+  filter: brightness(0%);
 }
 
 /*# sourceMappingURL=estilos.css.map */
