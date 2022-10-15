@@ -5,6 +5,10 @@
   background-repeat: no-repeat;
 }
 
+.activado {
+  background-color: rgb(198, 236, 29) !important;
+}
+
 .fila {
   background-color: aquamarine;
   display: flex;
@@ -33,7 +37,7 @@ h1 {
   text-align: center;
   margin-top: 45px;
   margin-bottom: 45px;
-  font-size: 55px;
+  font-size: 65px;
   color: rgb(255, 153, 0);
 }
 
@@ -55,6 +59,9 @@ nav {
 }
 nav ul {
   text-align: center;
+}
+nav li {
+  margin: 10px;
 }
 nav a:hover {
   background-color: rgb(198, 236, 29) !important;

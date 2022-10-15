@@ -10,6 +10,9 @@ $brilloOscuro: 0%;
     background-repeat: no-repeat;
 }
 
+.activado{
+    background-color: $colorbackgroundAction !important;
+}
 
 .fila {
     background-color: aquamarine;
@@ -39,7 +42,7 @@ h1 {
     text-align: center;
     margin-top: 45px;
     margin-bottom: 45px;
-    font-size: 55px;
+    font-size: 65px;
     color: $colorbackground;
 }
 
@@ -67,11 +70,14 @@ nav {
     ul {
         text-align: center;
     }
+    li{margin: 10px;
+    }
 
     a:hover {
         background-color: $colorbackgroundAction !important;
 
     }
+    
 }
 
 
