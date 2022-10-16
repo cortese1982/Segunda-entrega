@@ -137,4 +137,8 @@ img {
   filter: brightness(0%);
 }
 
+.breadcrumb {
+  font-size: 18px;
+}
+
 /*# sourceMappingURL=estilos.css.map */
