@@ -118,6 +118,7 @@ footer img {
 
 form {
   margin: auto;
+  padding: 10px;
 }
 form button:hover {
   background-color: #00A187 !important;
