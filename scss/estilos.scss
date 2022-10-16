@@ -1,25 +1,8 @@
 $anchoColumna: 100%;
-$colorbackground: rgb(255, 153, 0);
-$colorbackgroundAction: rgb(198, 236, 29);
+$colorbackground: #39C375;
+$colorbackgroundAction: #00A187;
+$colorBody: #D1ED91;
 $brilloOscuro: 0%;
-
-.foto {
-    border: solid 1px;
-    text-align: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.activado{
-    background-color: $colorbackgroundAction !important;
-}
-
-.fila {
-    background-color: aquamarine;
-    display: flex;
-    gap: 1px;
-    margin-top: 1px;
-}
 
 .col-2 img {
     width: $anchoColumna/2;
@@ -36,7 +19,38 @@ $brilloOscuro: 0%;
 * {
     margin: 0px;
     padding: 0px;
+
 }
+
+.activado {
+    background-color: $colorbackgroundAction !important;
+}
+
+#imagenProducto {
+    height: 450px;
+    border: solid;
+
+    border-radius: 0%;
+    border-color: rgb(209, 197, 197);
+
+    &:hover {
+        transform: scale(1.01);
+    }
+
+}
+
+.carousel-inner {
+    height: 300px;
+}
+
+#imagenCarrusel1 {
+    filter: sepia();
+}
+
+#imagenCarrusel2 {
+    filter: sepia(50%);
+}
+
 
 h1 {
     text-align: center;
@@ -69,21 +83,26 @@ nav {
 
     ul {
         text-align: center;
+        margin: auto;
     }
-    li{margin: 10px;
+
+    li {
+        margin: 10px;
     }
 
     a:hover {
         background-color: $colorbackgroundAction !important;
 
     }
-    
+
 }
 
 
 body {
     margin: auto;
+    background-color: $colorBody;
 }
+
 
 p {
     text-align: center;
@@ -126,7 +145,7 @@ footer {
 }
 
 form {
-    margin: 41px;
+    margin: auto;
 
     button:hover {
         background-color: $colorbackgroundAction !important;

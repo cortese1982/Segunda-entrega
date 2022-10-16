@@ -1,21 +1,3 @@
-.foto {
-  border: solid 1px;
-  text-align: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.activado {
-  background-color: rgb(198, 236, 29) !important;
-}
-
-.fila {
-  background-color: aquamarine;
-  display: flex;
-  gap: 1px;
-  margin-top: 1px;
-}
-
 .col-2 img {
   width: 50%;
 }
@@ -33,12 +15,38 @@
   padding: 0px;
 }
 
+.activado {
+  background-color: #00A187 !important;
+}
+
+#imagenProducto {
+  height: 450px;
+  border: solid;
+  border-radius: 0%;
+  border-color: rgb(209, 197, 197);
+}
+#imagenProducto:hover {
+  transform: scale(1.01);
+}
+
+.carousel-inner {
+  height: 300px;
+}
+
+#imagenCarrusel1 {
+  filter: sepia();
+}
+
+#imagenCarrusel2 {
+  filter: sepia(50%);
+}
+
 h1 {
   text-align: center;
   margin-top: 45px;
   margin-bottom: 45px;
   font-size: 65px;
-  color: rgb(255, 153, 0);
+  color: #39C375;
 }
 
 #registro {
@@ -49,26 +57,28 @@ h1 {
   filter: brightness(0%);
 }
 #registro a:hover {
-  background-color: rgb(198, 236, 29) !important;
+  background-color: #00A187 !important;
 }
 
 nav {
-  background-color: rgb(255, 153, 0);
+  background-color: #39C375;
   font-size: 21px;
   margin-bottom: 50px;
 }
 nav ul {
   text-align: center;
+  margin: auto;
 }
 nav li {
   margin: 10px;
 }
 nav a:hover {
-  background-color: rgb(198, 236, 29) !important;
+  background-color: #00A187 !important;
 }
 
 body {
   margin: auto;
+  background-color: #D1ED91;
 }
 
 p {
@@ -83,7 +93,7 @@ p {
 }
 
 footer {
-  background-color: rgb(255, 153, 0);
+  background-color: #39C375;
   padding: 10px;
   color: black;
   font-size: 16px;
@@ -98,19 +108,19 @@ footer img {
   border-color: rgb(209, 197, 197);
 }
 .card a:hover {
-  background-color: rgb(198, 236, 29) !important;
+  background-color: #00A187 !important;
 }
 
 .btn {
-  background-color: rgb(255, 153, 0);
+  background-color: #39C375;
   border: none;
 }
 
 form {
-  margin: 41px;
+  margin: auto;
 }
 form button:hover {
-  background-color: rgb(198, 236, 29) !important;
+  background-color: #00A187 !important;
 }
 
 img {
