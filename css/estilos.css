@@ -16,7 +16,7 @@
 }
 
 .activado {
-  background-color: #00A187 !important;
+  background-color: #358f80 !important;
 }
 
 #imagenProducto {
@@ -57,7 +57,7 @@ h1 {
   filter: brightness(0%);
 }
 #registro a:hover {
-  background-color: #00A187 !important;
+  background-color: #358f80 !important;
 }
 
 nav {
@@ -73,7 +73,7 @@ nav li {
   margin: 10px;
 }
 nav a:hover {
-  background-color: #00A187 !important;
+  background-color: #358f80 !important;
 }
 
 body {
@@ -108,7 +108,7 @@ footer img {
   border-color: rgb(209, 197, 197);
 }
 .card a:hover {
-  background-color: #00A187 !important;
+  background-color: #358f80 !important;
 }
 
 .btn {
@@ -121,7 +121,7 @@ form {
   padding: 10px;
 }
 form button:hover {
-  background-color: #00A187 !important;
+  background-color: #358f80 !important;
 }
 
 img {
