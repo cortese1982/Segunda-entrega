@@ -123,6 +123,17 @@ form {
 form button:hover {
   background-color: #358f80 !important;
 }
+form h2 {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  font-size: 35px;
+  color: #39C375;
+  text-align: center;
+}
+
+#formRegistro {
+  text-align: center;
+}
 
 img {
   transition: all 0.5s;

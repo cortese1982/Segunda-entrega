@@ -147,11 +147,20 @@ footer {
 form {
     margin: auto;
     padding: 10px;
-
     button:hover {
         background-color: $colorbackgroundAction !important;
     }
+    h2 {
+        margin-top: 45px;
+        margin-bottom: 45px;
+        font-size: 35px;
+        color: $colorbackground;
+        text-align: center;;
+    }
 
+}
+#formRegistro{
+    text-align: center;;
 }
 
 
