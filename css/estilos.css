@@ -120,9 +120,6 @@ form {
   margin: auto;
   padding: 10px;
 }
-form button:hover {
-  background-color: #358f80 !important;
-}
 form h2 {
   margin-top: 45px;
   margin-bottom: 45px;
@@ -154,6 +151,28 @@ img {
 
 #listaValor {
   list-style: none;
+}
+
+table {
+  margin: auto;
+  width: auto;
+}
+table td {
+  padding: 5px;
+  border: solid 1px;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #358f80 !important;
+}
+
+container {
+  justify-content: center;
+}
+container .botonPagar {
+  display: block;
+  margin: auto;
 }
 
 /*# sourceMappingURL=estilos.css.map */

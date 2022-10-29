@@ -149,10 +149,6 @@ form {
     margin: auto;
     padding: 10px;
 
-    button:hover {
-        background-color: $colorbackgroundAction !important;
-    }
-
     h2 {
         margin-top: 45px;
         margin-bottom: 45px;
@@ -194,3 +190,27 @@ img {
 #listaValor {
     list-style: none;
 }
+
+table {
+    margin: auto;
+    width: auto;
+
+    td {
+        padding: 5px;
+        border: solid 1px;
+        text-align: center;
+    }
+}
+
+button:hover {
+    background-color: $colorbackgroundAction !important;
+}
+container{
+    justify-content: center;
+    .botonPagar{
+        display: block;
+        margin: auto;
+             }
+    }
+
+    
