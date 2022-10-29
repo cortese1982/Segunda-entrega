@@ -89,7 +89,7 @@ p {
 }
 
 #primerletra {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 footer {
@@ -150,6 +150,10 @@ img {
 
 .breadcrumb {
   font-size: 18px;
+}
+
+#listaValor {
+  list-style: none;
 }
 
 /*# sourceMappingURL=estilos.css.map */
